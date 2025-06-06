@@ -13,7 +13,7 @@ import GameDetailPage from './pages/GameDetailPage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/digits">
+    <BrowserRouter basename="/digits/">
       <Routes>
         <Route path="/" element={<ButtonAppBar />} />
         <Route path="/register" element={<RegisterPage />} />
