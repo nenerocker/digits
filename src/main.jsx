@@ -6,7 +6,7 @@ import ButtonAppBar from './pages/App';
 import RegisterPage from './pages/RegisterPage';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import Play from './pages/play';
+import Play from './pages/Play';
 import Easygame from './pages/Easygame';
 import HistoryPage from './pages/HistoryPage';
 import GameDetailPage from './pages/GameDetailPage';
@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/play" element={<Play/>}/>
+        <Route path="/Play" element={<Play/>}/>
         <Route path="/Easygame" element={<Easygame/>}/>
         <Route path="/history/:nickname" element={<HistoryPage />} />
         <Route path="/gamedetail/:id" element={<GameDetailPage />} />

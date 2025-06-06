@@ -132,7 +132,7 @@ export default function Home() {
         </TableContainer>
 
         <Box height={16} />
-        <Button variant="contained" onClick={() => navigate('/play')}>
+        <Button variant="contained" onClick={() => navigate('/Play')}>
           เล่นเกมส์ เลย
         </Button>
       </Box>
